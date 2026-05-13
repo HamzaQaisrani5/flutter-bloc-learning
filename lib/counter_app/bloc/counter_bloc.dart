@@ -1,4 +1,4 @@
-import 'package:fl_bloc/bloc/counter_event.dart';
+import 'package:fl_bloc/counter_app/bloc/counter_event.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class CounterBloc extends Bloc<CounterEvent, int> {
