@@ -19,7 +19,7 @@ class TaskCubit extends Cubit<List<String>?> {
   @override
   void onChange(Change<List<String>?> change) {
     super.onChange(change);
-    print(change);
+    print('Change<List<String>?>: $change');
   }
 
   @override
